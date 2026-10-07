@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Sheba Coffee &amp; Bakery</title>
+  <meta name="description" content="Explore Sheba Coffee &amp; Bakery's royal brews, Ethiopian coffee, signature cakes, fresh pastries, and light bites in Addis Ababa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Noto+Sans+Ethiopic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <img class="logo-mark" src="sheba-logo-illustration.png" alt="">
+      <span class="logo-name">Sheba</span>
+      <span class="logo-descriptor">Coffee &amp; Bakery</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="nav" class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html" aria-current="page">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <p class="eyebrow">Made fresh in Addis Ababa</p>
+        <h1>Ethiopian favorites, made fresh.</h1>
+        <p>Buna, warm bakes, and breakfast—served daily.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="menu-filters" role="group" aria-label="Filter menu by category">
+        <button class="menu-filter is-active" type="button" data-menu-filter="all" aria-pressed="true">All</button>
+        <button class="menu-filter" type="button" data-menu-filter="buna" aria-pressed="false"><span lang="am">ቡና</span> Buna</button>
+        <button class="menu-filter" type="button" data-menu-filter="shai" aria-pressed="false"><span lang="am">ሻይ</span> Shai</button>
+        <button class="menu-filter" type="button" data-menu-filter="dabo" aria-pressed="false"><span lang="am">ዳቦ</span> Dabo</button>
+        <button class="menu-filter" type="button" data-menu-filter="keke" aria-pressed="false"><span lang="am">ኬክ</span> Keke</button>
+        <button class="menu-filter" type="button" data-menu-filter="qurs" aria-pressed="false"><span lang="am">ቁርስ</span> Qurs</button>
+      </div>
+
+      <div class="menu-section" id="menu-buna" data-menu-category="buna">
+        <h2><span class="amharic" lang="am">ቡና</span> <span>Buna <small>(Coffee)</small></span></h2>
+        <div class="menu-list">
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ጀበና ቡና</h3>
+              <p class="menu-description"><strong>Jebena Buna</strong> · Traditional clay-pot coffee, served with popcorn or kolo.</p>
+            </div>
+            <strong>ETB 60</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ማኪያቶ</h3>
+              <p class="menu-description"><strong>Macchiato</strong> · The Ethiopian café favorite, espresso with a little steamed milk.</p>
+            </div>
+            <strong>ETB 50</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ቡና በወተት</h3>
+              <p class="menu-description"><strong>Buna Be Wetet</strong> · Ethiopian coffee blended with warm milk.</p>
+            </div>
+            <strong>ETB 55</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ስፕሪስ</h3>
+              <p class="menu-description"><strong>Spris</strong> · A striking layered pour of coffee and tea.</p>
+            </div>
+            <strong>ETB 60</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section" id="menu-shai" data-menu-category="shai">
+        <h2><span class="amharic" lang="am">ሻይ</span> <span>Shai <small>(Tea &amp; Warm Drinks)</small></span></h2>
+        <div class="menu-list">
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ሻይ በቀረፋ</h3>
+              <p class="menu-description"><strong>Shai Be Kirfa</strong> · Spiced tea steeped with cinnamon and cloves.</p>
+            </div>
+            <strong>ETB 45</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ሻይ በዝንጅብል</h3>
+              <p class="menu-description"><strong>Shai Be Zinjibil</strong> · Fragrant ginger tea, brewed fresh.</p>
+            </div>
+            <strong>ETB 45</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ትኩስ ቸኮሌት</h3>
+              <p class="menu-description"><strong>Hot Chocolate</strong> · Smooth, rich cocoa served warm.</p>
+            </div>
+            <strong>ETB 65</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section" id="menu-dabo" data-menu-category="dabo">
+        <h2><span class="amharic" lang="am">ዳቦ</span> <span>Dabo <small>(From the Oven)</small></span></h2>
+        <div class="menu-list">
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ሀምባሻ</h3>
+              <p class="menu-description"><strong>Himbasha</strong> · Soft, lightly spiced celebration bread, baked fresh.</p>
+            </div>
+            <strong>ETB 80</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ሳምቡሳ</h3>
+              <p class="menu-description"><strong>Sambusa</strong> · Crispy pastry filled with lentils or seasoned meat.</p>
+            </div>
+            <strong>ETB 45</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ዳቦ ቆሎ</h3>
+              <p class="menu-description"><strong>Dabo Kolo</strong> · Crunchy, bite-size baked bread snacks.</p>
+            </div>
+            <strong>ETB 50</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ክሮሳንት</h3>
+              <p class="menu-description"><strong>Croissant</strong> · Buttery, flaky pastry baked fresh each morning.</p>
+            </div>
+            <strong>ETB 70</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">የቀረፋ ጥቅል</h3>
+              <p class="menu-description"><strong>Cinnamon Roll</strong> · Soft, warmly spiced, and lightly glazed.</p>
+            </div>
+            <strong>ETB 70</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section" id="menu-keke" data-menu-category="keke">
+        <h2><span class="amharic" lang="am">ኬክ</span> <span>Keke <small>(Cakes)</small></span></h2>
+        <div class="menu-list">
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ማር ኬክ</h3>
+              <p class="menu-description"><strong>Mar Keke (Honey Cake)</strong> · Delicate layers sweetened with Ethiopian honey.</p>
+            </div>
+            <strong>ETB 160</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ቸኮሌት ኬክ</h3>
+              <p class="menu-description"><strong>Chocolate Cake</strong> · Rich cocoa layers with a smooth chocolate finish.</p>
+            </div>
+            <strong>ETB 170</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ካሮት ኬክ</h3>
+              <p class="menu-description"><strong>Carrot Cake</strong> · Tender spiced cake with freshly grated carrot.</p>
+            </div>
+            <strong>ETB 160</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ቺዝ ኬክ</h3>
+              <p class="menu-description"><strong>Cheesecake</strong> · Creamy baked filling on a buttery biscuit base.</p>
+            </div>
+            <strong>ETB 190</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ቶርታ</h3>
+              <p class="menu-description"><strong>Torta</strong> · A classic Ethiopian-Italian style cake slice.</p>
+            </div>
+            <strong>ETB 180</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section" id="menu-qurs" data-menu-category="qurs">
+        <h2><span class="amharic" lang="am">ቁርስ</span> <span>Qurs <small>(Breakfast)</small></span></h2>
+        <div class="menu-list">
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ፍርፍር</h3>
+              <p class="menu-description"><strong>Firfir</strong> · Shredded injera tossed in a warmly spiced sauce.</p>
+            </div>
+            <strong>ETB 120</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ፉል</h3>
+              <p class="menu-description"><strong>Ful</strong> · Seasoned fava beans served warm with fresh toppings.</p>
+            </div>
+            <strong>ETB 120</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ጨጨብሳ</h3>
+              <p class="menu-description"><strong>Chechebsa</strong> · Pan-fried flatbread with honey and spiced butter.</p>
+            </div>
+            <strong>ETB 130</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">እንቁላል ፍርፍር</h3>
+              <p class="menu-description"><strong>Enkulal Firfir</strong> · Scrambled eggs with tomato, onion, and torn injera.</p>
+            </div>
+            <strong>ETB 150</strong>
+          </div>
+          <div class="menu-row">
+            <div>
+              <h3 class="menu-name-am" lang="am">ሳንድዊች</h3>
+              <p class="menu-description"><strong>Sheba Garden Sandwich</strong> · Fresh greens, tomato, and local cheese on toasted bread.</p>
+            </div>
+            <strong>ETB 140</strong>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Sheba Coffee &amp; Bakery · Demo website</p>
+    <div class="social-links">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Facebook">Facebook</a>
+      <a href="#" aria-label="TikTok">TikTok</a>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/251900000000" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+  <script src="main.js"></script>
+</body>
+</html>

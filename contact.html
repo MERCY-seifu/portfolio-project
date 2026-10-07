@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visit Us | Sheba Coffee &amp; Bakery</title>
+  <meta name="description" content="Visit Sheba Coffee &amp; Bakery in Bole, Addis Ababa, for Ethiopian coffee, fresh cakes, and warm pastries. Find our hours and contact details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <img class="logo-mark" src="sheba-logo-illustration.png" alt="">
+      <span class="logo-name">Sheba</span>
+      <span class="logo-descriptor">Coffee &amp; Bakery</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="nav" class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <p class="eyebrow">Visit us</p>
+        <h1>Come by for buna and a fresh bake.</h1>
+        <p>Find us in Bole or send us a message.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="contact-grid">
+        <article class="contact-card">
+          <p class="eyebrow">Location</p>
+          <h2>Sheba Coffee &amp; Bakery</h2>
+          <ul>
+            <li>Bole, Addis Ababa</li>
+            <li><a href="tel:+251930452565">+251 93 045 251930452565</a></li>
+            <li><a href="mailto:hello@shebacoffee.com">hello@shebacoffee.com</a></li>
+          </ul>
+        </article>
+
+        <article class="contact-card">
+          <p class="eyebrow">Hours</p>
+          <ul>
+            <li>Monday–Saturday: 7:00 AM – 10:00 PM</li>
+            <li>Sunday: 8:00 AM – 9:00 PM</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="contact-grid">
+          <article class="contact-card">
+            <p class="eyebrow">Send a message</p>
+            <form class="contact-form">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" required>
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" required>
+              </label>
+              <label>
+                Message
+                <textarea name="message" placeholder="Tell us how we can help" required></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">Send message</button>
+              <div class="form-message" aria-live="polite"></div>
+            </form>
+          </article>
+
+          <article class="contact-card">
+            <p class="eyebrow">Find us</p>
+            <p>Find Sheba in Bole, Addis Ababa.</p>
+            <a class="btn btn-ghost" href="https://maps.google.com/?q=Bole%20Addis%20Ababa" target="_blank" rel="noopener">Open in Google Maps</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Sheba Coffee &amp; Bakery · Demo website</p>
+    <div class="social-links">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Facebook">Facebook</a>
+      <a href="#" aria-label="TikTok">TikTok</a>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/251900000000" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+  <script src="main.js"></script>
+</body>
+</html>
